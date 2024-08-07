@@ -1,0 +1,50 @@
+body{
+    background-image: url(../img/diseño-24.jpg);
+    background-size: cover;
+    
+}
+.login{
+    background-color: white;
+    width: 900px;
+    height: 100%;
+    border-radius: 7%;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+
+}
+
+.logo{
+margin-top: 30px;
+margin-left: 210px;
+width: 200px;
+}
+
+.btn{
+    background-color: #FA812F;
+    color: white;
+}
+
+.h2{
+    text-align: center;
+}
+
+img{
+    padding-left: 30px;
+    height: 80px;
+}
+
+a{
+    text-decoration: none;
+    color:white
+}
+
+.btn:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #FA4032;
+}
+
+a:hover{
+    color:white;
+}
