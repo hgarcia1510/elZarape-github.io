@@ -281,7 +281,7 @@ function activarComanda(index) {
 
 document.addEventListener('DOMContentLoaded', function () {
     // Cargar los datos desde el archivo JSON o tu fuente de datos
-    fetch("http://localhost:8081/El_Zarape/modulos/js/datosComanda.json")
+    fetch("./js/datosComanda.json")
             .then(response => response.json())
             .then(data => {
                 comandas = data;

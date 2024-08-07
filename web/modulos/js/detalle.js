@@ -316,7 +316,7 @@ function agregarListenersPrecios(index) {
 
 document.addEventListener('DOMContentLoaded', function () {
     // Cargar los datos desde el archivo JSON o tu fuente de datos
-    fetch("http://localhost:8081/El_Zarape/modulos/js/datosDetalle.json")
+    fetch("./js/datosDetalle.json")
         .then(response => response.json())
         .then(data => {
             detalles = data;
