@@ -1,0 +1,32 @@
+[
+    {
+        "idCliente":"01" ,
+        "nombrePersona":"Juan",
+        "telefono":"000-000-00",
+        "usuario":"cliente1",
+        "correo": "cliente1@gmail.com",
+        "contrasena":"cliente1",
+        "estatusCliente": "Activo",
+        "activo": true
+    },
+    {
+        "idCliente":"02" ,
+        "nombrePersona":"Marcos Gónzales",
+        "telefono":"000-000-00",
+        "usuario":"cliente2",
+        "correo": "cliente2@gmail.com",
+        "contrasena":"cliente2",
+        "estatusCliente": "Activo",
+        "activo": true
+    },
+    {
+        "idCliente":"03" ,
+        "nombrePersona":"Sofía Hernandez Gaytan",
+        "telefono":"000-000-00",
+        "usuario":"cliente3",
+        "correo": "cliente3@gmail.com",
+        "contrasena":"cliente3",
+        "estatusCliente": "Activo",
+        "activo": true
+    }
+]

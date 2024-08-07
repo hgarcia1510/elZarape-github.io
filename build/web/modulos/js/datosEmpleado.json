@@ -1,0 +1,41 @@
+[
+    {
+        "idEmpleado":"01" ,
+        "nombrePersona":"Juan",
+        "apellidoPaterno":"Ramírez",
+        "apellidoMaterno":"Sanchez",
+        "telefono":"000-000-00",
+        "rol":"Chef",
+        "usuario":"cliente1",
+        "contrasena":"cliente1",
+        "nombreSucursal":"Antorcha",
+        "estatusCliente": "Activo",
+        "activo": true
+    },
+    {
+        "idEmpleado":"02" ,
+        "nombrePersona":"Carmen",
+        "apellidoPaterno":"Dolores",
+        "apellidoMaterno":"Gutierrez",
+        "telefono":"000-000-00",
+        "rol":"Chef",
+        "usuario":"cliente1",
+        "contrasena":"cliente1",
+        "nombreSucursal":"Galerías",
+        "estatusCliente": "Activo",
+        "activo": true
+    },
+    {
+        "idEmpleado":"03" ,
+        "nombrePersona":"Violeta",
+        "apellidoPaterno":"López",
+        "apellidoMaterno":"López",
+        "telefono":"000-000-00",
+        "rol":"Chef",
+        "usuario":"cliente1",
+        "contrasena":"cliente1",
+        "nombreSucursal":"Altacia",
+        "estatusCliente": "Activo",
+        "activo": true
+    }
+]

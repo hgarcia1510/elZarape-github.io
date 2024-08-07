@@ -1,0 +1,50 @@
+[
+    {
+        "idComanda":"01" ,
+        "idCliente":"Punto de Venta",
+        "idCombo":"N/A",
+        "cantidadCombo":"0",
+        "idAlimento": "Chilaquiles",
+        "cantidadAlimento":"1",
+        "idBebida": "Jugo",
+        "cantidadBebida":"1",
+        "fechaHora":"30/07/2024 10:27:02",
+        "subtotal":"150",
+        "idProcesoComanda": "Recibido",
+        "Recibido": "1",
+        "estatusComanda": "Activo",
+        "activo": true
+    },
+    {
+        "idComanda":"02" ,
+        "idCliente":"02",
+        "idCombo":"Premium",
+        "cantidadCombo":"2",
+        "idAlimento": "N/A",
+        "cantidadAlimento":"0",
+        "idBebida": "N/A",
+        "cantidadBebida":"0",
+        "fechaHora":"28/06/2024 12:05:10",
+        "subtotal":"600",
+        "idProcesoComanda": "Recibido",
+        "Recibido": "1",
+        "estatusComanda": "Activo",
+        "activo": true
+    },
+    {
+        "idComanda":"03" ,
+        "idCliente":"Punto de Venta",
+        "idCombo":"N/A",
+        "cantidadCombo":"0",
+        "idAlimento": "Tamales",
+        "cantidadAlimento":"2",
+        "idBebida": "Café",
+        "cantidadBebida":"2",
+        "fechaHora":"23/06/2024 14:37:10",
+        "subtotal":"160",
+        "idProcesoComanda": "Recibido",
+        "Recibido": "1",
+        "estatusComanda": "Activo",
+        "activo": true
+    }
+]

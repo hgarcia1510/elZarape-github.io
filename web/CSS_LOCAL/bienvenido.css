@@ -1,0 +1,78 @@
+/* 
+    Created on : 30 jul. 2024, 15:39:48
+    Author     : karen
+*/
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../img/diseño-rojo-24.jpg);
+    background-size: cover;
+    color: white;
+    padding-top: 1%;
+}
+
+.borde{
+    background-color: #FA4032;
+    border: 3px solid white;
+    border-radius: 10px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+
+.menu{
+    align-content: space-evenly;
+    flex-wrap: wrap;
+    display: flex;
+    padding-left: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.menu div{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+img{
+    width: 140px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    cursor: pointer;
+    color: white;
+}
+
+.cerrarSesion{
+    background-color: white;
+}
+
+.cerrarSesion a {
+    color: #FA4032;
+}
+
+.cerrarSesion:hover{
+    cursor: pointer;
+    background-color: #FAAF08;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+}
+
+.cerrarSesion a:hover{
+     color: white;
+}
+
+.cerrarSesion button:hover{
+     color: white;
+}
+
+

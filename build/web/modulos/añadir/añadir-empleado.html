@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/catalogo.css"><!--css para el menú de los catálogos-->
+    <link rel="stylesheet" href="../../modulos/css/añadir.css"><!--css para el proceso de añadir-->
+
+    <title>Añdir_Empleado</title>
+</head>
+
+<body>
+    <div class="row">
+        <!--Contenedor para el menu de los catalogos-->
+        <div class="col-3" id="main">
+            <div class="text-center">
+                <img class="imagen" src="../../img/logo_blanco.png" alt="logo en blanco">
+            </div>
+            <br>
+            <a href="../alimento.html">Alimento</a><br>
+            <a href="../bebida.html">Bebida</a><br>
+            <a href="../combo.html">Combo</a><br>
+            <a href="../comanda.html">Comanda</a><br>
+            <a href="../sucursal.html">Sucursal</a><br>
+            <a href="../cliente.html">Cliente</a><br>
+            <a href="../empleado.html">Empleado</a><br>
+            <a href="../pago.html">Pago</a><br>
+            <a href="../detalles.html">Detalles</a><br>
+            <br>
+            <br>
+            <div class="text-center">
+                <img class="imagen" src="../../img/sesion.png" alt="">
+                <br>
+                <br>
+                <a id="sesion" href="../../login.html">Cerrar Sesión</a>
+                <br>
+            </div>
+        </div>
+
+        <!--Aquí va los datos de añadir-->
+        <div class="col-9 p-4">
+            <h2>Empleado</h2>
+            <br>
+            <form action="">
+                <label for="" class="">Usuario</label><br>
+                <input type="text" class="form-control"><br>
+                <label for="">Nombre</label><br>
+                <input type="text" class="form-control"><br>
+                <label for="">Apellidos</label><br>
+                <input type="text" class="form-control"><br>
+            </form>
+            <br>
+
+            <div class="container">
+                <!-- FILA DE FORMULARIO -->
+                <div class="row">
+                    <!-- COLUMNA -->
+                    <div class="col-sm-12 col-lg-6 cargar">
+
+                        <label for="">Teléfono</label><br>
+                        <input type="tel" class="form-control"><br>
+                        <label for="">Contraseña</label><br>
+                        <input type="password" class="form-control"><br>
+
+                    </div> <!-- COLUMNA  -->
+
+                    <!-- COLUMNA DE FORMULARIO -->
+                    <div class="col-sm-12 col-lg-6">
+                        <form>
+                            <div class="mb-3">
+                                <label for="">Rol</label><br>
+                                <select name="" id="" class="form-select"> 
+                                    <option value="">Selecciona</option>
+                                    <option value="1">Chef</option>
+                                    <option value="2">Administrador</option>
+                                </select>
+                                <br>
+                                <label for="">Sucursal</label><br>
+                                <select name="" id="" class="form-select"> 
+                                    <option value="">Selecciona</option>
+                                    <option value="1">Antorcha</option>
+                                    <option value="2">Galerías</option>
+                                    <option value="3">Altacia</option>
+                                    <option value="4">Plaza Mayor</option>
+                                </select>
+                            </div>
+                        </form>
+
+                    </div> <!-- COLUMNA DE FORMULARIO -->
+                </div>
+            </div>
+
+            <div class="text-center">
+                <button class="btn-1" type="button">Cancelar</button>
+                <button class="btn-2" type="button">Confirmar</button>
+            </div>
+        </div>
+        <script src="JS/scrip.js"></script>
+</body>
+
+</html>

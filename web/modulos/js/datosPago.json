@@ -1,0 +1,35 @@
+[
+    {
+        "idPago":"01" ,
+        "banco":"BBVA",
+        "nombreTitular":"José López Ramírez",
+        "numTarjeta":"0000-0000-0000-0000",
+        "cvv":"000",
+        "fechaVencimiento":"00/00",
+        "idCliente":"01",
+        "estatusCliente": "Activo",
+        "activo": true
+    },
+    {
+        "idPago":"02" ,
+        "banco":"STP",
+        "nombreTitular":"María José Sanchez Martínez",
+        "numTarjeta":"0000-0000-0000-0000",
+        "cvv":"000",
+        "fechaVencimiento":"00/00",
+        "idCliente":"02",
+        "estatusCliente": "Activo",
+        "activo": true
+    },
+    {
+        "idPago":"03" ,
+        "banco":"Banorte",
+        "nombreTitular":"Marcela Pozo Salas",
+        "numTarjeta":"0000-0000-0000-0000",
+        "cvv":"000",
+        "fechaVencimiento":"00/00",
+        "idCliente":"03",
+        "estatusCliente": "Activo",
+        "activo": true
+    }
+]

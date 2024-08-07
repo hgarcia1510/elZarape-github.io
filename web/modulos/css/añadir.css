@@ -1,0 +1,54 @@
+.modal {
+    display: none; /* Ocultar el modal por defecto */
+    position: fixed; /* Mantener el modal en una posición fija */
+    z-index: 1000; /* Asegurarse de que el modal esté por encima de otros elementos */
+    left: 0;
+    top: 0;
+    width: 100%; /* Ancho completo de la pantalla */
+    height: 100%; /* Altura completa de la pantalla */
+    overflow: auto; /* Permitir el desplazamiento si el contenido es más alto que la ventana */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+}
+
+.modal {
+    display: none; /* Ocultar el modal por defecto */
+    position: fixed; /* Mantener el modal en una posición fija */
+    z-index: 1000; /* Asegurarse de que el modal esté por encima de otros elementos */
+    left: 0;
+    top: 0;
+    width: 100%; /* Ancho completo de la pantalla */
+    height: 100%; /* Altura completa de la pantalla */
+    overflow: auto; /* Permitir el desplazamiento si el contenido es más alto que la ventana */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 10% auto; /* Centrando el modal */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Puedes ajustar el ancho del modal aquí */
+    max-width: 600px; /* Limitar el ancho máximo */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra para el modal */
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus {
+    color: wheat;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.cancelarAñadir{
+    border: 1px solid #FA4032;
+}

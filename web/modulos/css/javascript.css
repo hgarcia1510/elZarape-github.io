@@ -1,0 +1,73 @@
+/* 
+    Created on : 17 jul. 2024, 19:27:28
+    Author     : Saul
+Este CSS es para modificar las etiquetas que se encuentren en el javascript
+*/
+
+.estado{
+    color:grey;
+    font-size: small;
+}
+
+/*La clase estado afecta el estado del catálogo y el id*/
+
+.texto{
+    font-size: small;
+}
+
+/*La clase texto es para las etiquetas label*/
+
+.datos{
+    font-size: small;
+    border: 1px solid #cccccc;
+}
+
+/*la clase datos es para la etiqueta input que recibe los datos del json*/
+
+.btn{
+    border: 1px solid #cccccc;
+}
+
+.foto{
+    align-content: center;
+    align-items: center;
+    height: 140px;
+}
+
+.direccion{
+    font-size: medium;
+}
+
+.direccion-datos{
+    font-size: small;
+    border: none;
+}
+
+.aceptar{
+    color: white;
+    background-color: #FA4032;
+}
+
+.cancelar{
+    border: 1px solid #FA4032;
+}
+
+.activar{
+    background-color: #FA4032;
+    color: white;
+}
+
+.aceptar:hover{
+    color: white;
+    background-color: #FAAF08;
+}
+
+.cancelar:hover{
+    color: white;
+    background-color: #FAAF08;
+    border: none;
+}
+
+.activar:hover{
+    background-color: #FAAF08;
+}

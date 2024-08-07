@@ -1,0 +1,52 @@
+/* 
+    Created on : 30 jul. 2024, 11:44:06
+    Author     : Saul
+*/
+.content{
+    margin-left:160px;
+}
+
+.content h2{
+    padding-top: 1%;
+}
+
+.content #buscar{
+    width: 30px;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    align-self: center;
+}
+
+.col{
+    margin:0;
+}
+
+#contenido{
+    padding-left: 20px;
+    padding-right: 40px;
+    padding-top: 20px;
+}
+
+#enlace{
+    height: 5%;
+    width: 1%;
+}
+
+.cotenido{
+    padding-top: 1%;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.boton{
+    background-color: white;
+}
+
+.imagen-contenido{
+    padding-top: 2%;
+}
+
+#info{
+    border: none;
+}

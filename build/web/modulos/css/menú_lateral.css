@@ -1,0 +1,103 @@
+/* 
+    Created on : 30 jul. 2024, 10:42:30
+    Author     : Saul
+*/
+*{
+    box-sizing: border-box;
+}
+
+.sidebar{
+    height: 100%;
+    width: 150px;
+    position: fixed;
+    z-index: 1;
+    top:0;
+    left: 0;
+    background-color: #FA4032;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidebar a{
+    padding-top:  5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: justify;
+}
+
+.sidebar a:hover{
+    color: white;
+    background-color: #FAAF08 ;
+    border-radius: 20px;
+    font-weight: 700;
+}
+
+.sidebar img{
+    padding-left: 1em;
+    width: 110px;
+}
+
+.sidebar #logo{
+    padding-left: 0;
+    width: 100px;
+    padding-bottom: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sidebar #perfil{
+    padding-left: 0;
+    padding-top: 1em;
+    width: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#alimento{
+    width: 45px;
+}
+
+#bebida{
+    width: 50px;
+}
+
+#combo{
+    width: 50px;
+}
+
+#cliente{
+    width: 50px;
+}
+
+#combo{
+    width: 50px;
+}
+
+#comanda{
+    width: 50px;
+}
+
+#detalle{
+    width: 50px;
+}
+
+#empleado{
+    width: 50px;
+}
+
+#pago{
+    width: 50px;
+}
+
+#sucursal{
+    width: 50px;
+}
+
+#cerrar-sesion{
+    text-align: center;
+    color: white;
+}
